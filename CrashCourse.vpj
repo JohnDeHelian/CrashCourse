@@ -89,6 +89,7 @@
             <F N="img/iconBlog.png"/>
             <F N="img/iconLearn.png"/>
             <F N="img/iconTwitter.png"/>
+            <F N="John.txt"/>
             <F N="js/jquery.js"/>
             <F N=".git/hooks/post-update.sample"/>
             <F N=".git/hooks/pre-applypatch.sample"/>
