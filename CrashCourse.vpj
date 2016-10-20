@@ -1,0 +1,103 @@
+<!DOCTYPE Project SYSTEM "http://www.slickedit.com/dtd/vse/10.0/vpj.dtd">
+<Project
+    Version="10.0"
+    VendorName="SlickEdit"
+    TemplateName="(Other)"
+    WorkingDir="."
+    VCSProject="Git:">
+    <Config
+        Name="Release"
+        OutputFile=""
+        CompilerConfigName="">
+        <Menu>
+            <Target
+                Name="Compile"
+                MenuCaption="&amp;Compile"
+                CaptureOutputWith="ProcessBuffer"
+                SaveOption="SaveCurrent"
+                RunFromDir="%rw">
+                <Exec/>
+            </Target>
+            <Target
+                Name="Build"
+                MenuCaption="&amp;Build"
+                CaptureOutputWith="ProcessBuffer"
+                SaveOption="SaveWorkspaceFiles"
+                RunFromDir="%rw">
+                <Exec/>
+            </Target>
+            <Target
+                Name="Rebuild"
+                MenuCaption="&amp;Rebuild"
+                CaptureOutputWith="ProcessBuffer"
+                SaveOption="SaveWorkspaceFiles"
+                RunFromDir="%rw">
+                <Exec/>
+            </Target>
+            <Target
+                Name="Debug"
+                MenuCaption="&amp;Debug"
+                SaveOption="SaveNone"
+                RunFromDir="%rw">
+                <Exec/>
+            </Target>
+            <Target
+                Name="Execute"
+                MenuCaption="E&amp;xecute"
+                SaveOption="SaveNone"
+                RunFromDir="%rw">
+                <Exec CmdLine='"CrashCourse.exe"'/>
+            </Target>
+        </Menu>
+    </Config>
+    <Files>
+        <Folder
+            Name="Source Files"
+            Filters="*.c;*.C;*.cc;*.cpp;*.cp;*.cxx;*.c++;*.prg;*.pas;*.dpr;*.asm;*.s;*.bas;*.java;*.cs;*.sc;*.e;*.cob;*.html;*.rc;*.tcl;*.py;*.pl;*.d;*.m;*.mm;*.go;*.groovy;*.gsh"
+            GUID="{0C8D7AF7-2FEF-4DCA-AA77-5F6A3AEEDD26}">
+            <F N="about.html"/>
+            <F N="imprint.html"/>
+            <F N="index.html"/>
+            <F N="John.html"/>
+        </Folder>
+        <Folder
+            Name="Header Files"
+            Filters="*.h;*.H;*.hh;*.hpp;*.hxx;*.h++;*.inc;*.sh;*.cpy;*.if"
+            GUID="{FA615AC7-8259-4A7C-A9C9-62E8CAEA7E42}"/>
+        <Folder
+            Name="Resource Files"
+            Filters="*.ico;*.cur;*.dlg"
+            GUID="{A29F4F07-0DC6-412B-A43C-493284EBD7F8}">
+            <F N="img/favicon.ico"/>
+        </Folder>
+        <Folder
+            Name="Bitmaps"
+            Filters="*.bmp"
+            GUID="{EF1E581A-0290-464B-B5B1-8E94A37E0243}"/>
+        <Folder
+            Name="Other Files"
+            Filters=""
+            GUID="{AC93A578-86B2-4435-9756-7AFE138BCB0F}">
+            <F N=".gitignore"/>
+            <F N="css/about.css"/>
+            <F N=".git/hooks/applypatch-msg.sample"/>
+            <F N="img/backgroundBody.png"/>
+            <F N="img/backgroundHeader.jpg"/>
+            <F N=".git/hooks/commit-msg.sample"/>
+            <F N="CrashCourse.vpj"/>
+            <F N="css/general.css"/>
+            <F N="img/iconBlog.png"/>
+            <F N="img/iconLearn.png"/>
+            <F N="img/iconTwitter.png"/>
+            <F N="js/jquery.js"/>
+            <F N=".git/hooks/post-update.sample"/>
+            <F N=".git/hooks/pre-applypatch.sample"/>
+            <F N=".git/hooks/pre-commit.sample"/>
+            <F N=".git/hooks/pre-push.sample"/>
+            <F N=".git/hooks/pre-rebase.sample"/>
+            <F N=".git/hooks/prepare-commit-msg.sample"/>
+            <F N="robots.txt"/>
+            <F N=".git/hooks/update.sample"/>
+        </Folder>
+    </Files>
+</Project>
