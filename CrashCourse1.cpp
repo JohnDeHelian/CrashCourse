@@ -6,6 +6,7 @@ int main (int argc, char *argv[])
 {
     cout << "hello world" << endl;
     /* This is change in master branch */
-    return(0);
+    /* This is a change in AddMoreFiles branch */
+>    return(0);
 }
 
